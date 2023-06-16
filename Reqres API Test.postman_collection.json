@@ -66,8 +66,8 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"//this endpoint can't get id from create user step",
-							"//so i use static id = 12, to get user",
+							"//this endpoint can't using id from create user step",
+							"//so i use static id = 12, to hit this endpoint",
 							"",
 							"var jsonData = pm.response.json();",
 							"",
